@@ -11,7 +11,7 @@ class Artist
   end
   
   def add_song(song)
-    binding.pry
+    
     self.songs << song 
     @@song_count += 1
     
