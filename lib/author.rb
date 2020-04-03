@@ -26,4 +26,8 @@ class Author
   def self.post_count
     @@post_count
   end
+  
+   def self.song_count
+    Song.all.length
+  end
 end
