@@ -13,7 +13,7 @@ class Artist
   def add_song(song)
     song.artist = self if !song.artist 
     self.songs << song 
-    @@song_count += 1
+    @@song_count += 1 
     binding.pry
     
   end
