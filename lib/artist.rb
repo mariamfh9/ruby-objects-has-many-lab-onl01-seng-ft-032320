@@ -14,6 +14,7 @@ class Artist
     song.artist = self if !song.artist 
     self.songs << song 
     @@song_count += 1
+    binding.pry
     
   end
  
